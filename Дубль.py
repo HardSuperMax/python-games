@@ -8,18 +8,8 @@ def game():
     randint4 = random.randint(1,9)
     g = input("Вам выпало "+str(randint1) +", "+str(randint2) +", "+str(randint3) +", "+str(randint4) +". ")
     if g == "Ок!":
-        if int(randint1) == int(randint2):
-            print("Вы победили!")           
-        if int(randint2) == int(randint3):
-            print("Вы победили!")            
-        if int(randint3) == int(randint4):
-            print("Вы победили!")           
-        if int(randint1) == int(randint3):
-            print("Вы победили!")         
-        if int(randint2) == int(randint4):
-            print("Вы победили!")            
-        if int(randint1) == int(randint4):
-            print("Вы победили!")           
+        if int(randint1) == int(randint2) or int(randint2) == int(randint3) or int(randint3) == int(randint4) or int(randint2) == int(randint4) or int(randint1) == int(randint4):
+            print("Вы победили!")
         if int(randint1) != int(randint2) and int(randint2) != int(randint3) and int(randint3) != int(randint4) and int(randint2) != int(randint4) and int(randint1) != int(randint4):
             print("Вы проиграли!")
 #= = = == = = = == = = = ИГРАТЬ СНОВА = = = == = = = == = = =#

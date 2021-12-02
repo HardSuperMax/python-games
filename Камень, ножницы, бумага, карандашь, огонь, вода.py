@@ -51,7 +51,7 @@ def game():
         print("Я победил!")
     if int(player) == 2 and int(computer) == 5: 
         print("Я победил")
-    if int(computer) ==  2 and int(player) == 5: # 1 - камень, 2 - ножницы или 3 - бумагу, 4 - карандаш, 5 - огонь, 6 - вода
+    if int(computer) == 2 and int(player) == 5:
         print("Вы победили!")
     if int(player) == 2 and int(computer) == 6: 
         print("Я победил!")

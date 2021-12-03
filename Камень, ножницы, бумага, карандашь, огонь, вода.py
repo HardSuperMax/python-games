@@ -57,17 +57,17 @@ def game():
         print("Я победил!")
     if int(computer) == 2 and int(player) == 6: 
         print("Вы победили!")
-    if int(player) == 3 and int(computer) == 4 : 
+    if int(player) == 3 and int(computer) == 4: 
         print("Я победил!")
-    if int(computer) == 3 and int(player) == 4 : 
+    if int(computer) == 3 and int(player) == 4: 
         print("Вы победили!")
-    if int(player) == 3 and int(computer) == 5 : 
+    if int(player) == 3 and int(computer) == 5: 
         print("Я победил!")
-    if int(computer) == 3 and int(player) == 5 : 
+    if int(computer) == 3 and int(player) == 5: 
         print("Вы победили!")
     if int(player) == 3 and int(computer) == 6: 
         print("Я победил!")
-    if int(computer) == 3 and int(player) == 6 : 
+    if int(computer) == 3 and int(player) == 6: 
         print("Вы победили!")
 #= = = == = = = == = = = ИГРАТЬ СНОВА = = = == = = = == = = =#
     agane = input("Играть снова? ('Да' или 'Нет'): ")
